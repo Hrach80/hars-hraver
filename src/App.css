@@ -66,6 +66,7 @@ body {
     10px 10px 20px rgba(0, 0, 0, 0.2),
     -10px -10px 20px rgba(255, 255, 255, 0.8),
     0 0 20px rgba(247, 215, 148, 0.5);
+  
 }
 
 .main-image-container {
@@ -102,7 +103,7 @@ body {
 .subtitle {
   font-style: italic;
   font-size: 1.2em;
-  color: goldenrod;
+  color: rgb(186, 139, 18);
 }
 
 .countdown-timer {
@@ -126,7 +127,7 @@ body {
 .countdown-number {
   font-size: 2em;
   font-weight: bold;
-color: goldenrod;
+  color: goldenrod;
   text-shadow: 0 0 7px rgba(207, 176, 3, 0.9);
   display: inline-block;
   animation: fade-in-down 0.5s forwards;
@@ -168,6 +169,7 @@ color: goldenrod;
   transition: all 0.3s ease;
   font-weight: bold;
 }
+
 @keyframes gold-silver-flash {
 
   0%,
@@ -177,17 +179,17 @@ color: goldenrod;
   }
 
   50% {
-  color: #999999;
+    color: #999999;
     text-shadow: 0 0 7px rgba(192, 192, 192, 0.9);
   }
 }
 
 .glxavorhamar {
-  font-family: 'Tangerine', cursive !important;
   font-size: 2.5em;
   font-weight: bold;
   animation: gold-silver-flash 1.5s infinite alternate;
 }
+
 .rsvp-section button:hover {
   box-shadow:
     5px 5px 10px rgba(0, 0, 0, 0.1),
@@ -240,12 +242,12 @@ color: goldenrod;
   cursor: pointer;
   font-size: 1.2em;
   margin-left: 10px;
-    color: rgb(161, 137, 3);
+  color: rgb(161, 137, 3);
   transition: color 0.3s ease;
 }
 
 .language-switcher button:hover {
-  color:green;
+  color: green;
 }
 
 .location-item {
@@ -260,7 +262,7 @@ color: goldenrod;
 /* Թողեք նաև այս բլոկները */
 
 .glxavor {
-color: #999999;
+  color: #999999;
   font-size: 30px;
 }
 
@@ -268,13 +270,16 @@ color: #999999;
   margin: 0;
   font-size: 26px;
 }
-.opnmek{
+
+.opnmek {
   color: green;
 }
+
 .opnerk {
-  color:red;
+  color: red;
 }
-.subtitl{
+
+.subtitl {
   color: green;
 }
 
@@ -304,8 +309,108 @@ color: #999999;
   height: 24px;
 }
 
-@media (max-width: 600px) {
+/* --------------------------------------------------------------------------------- */
+
+
+/* Փոքր Հեռախոսներ (Max-width: 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 5px;
+  }
+
+  .neomorphic-card {
+    padding: 20px;
+
+  }
+    
+
+  .main-image-container {
+    width: 200px;
+    height: 280px;
+    margin-bottom: 20px;
+  }
+
+  .glxavorhamar {
+    font-size: 2em;
+  }
+
+  .location-item h3 {
+    font-size: 22px;
+  }
+
+  .countdown-timer {
+  
+    font-size: 10px;
+  }
+
+  .countdown-number {
+    font-size: 1.5em;
+    
+  }
+.countdown-section,
+.hero-section,
+.details-section,
+.rsvp-section,
+.gallery-section{
+  padding: 5px 1px;
+}
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+.countdown-timer .countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding: 1px 25px;
+}
+.language-switcher button {
+transform: translateY(22px);
+}
   body {
     padding: 10px;
+  }
+}
+
+/* Միջին Հեռախոսներից Մեծ Էկրաններ (Max-width: 768px - Tablet Portrait) */
+@media (max-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .neomorphic-card {
+    padding: 25px;
+  }
+
+  .countdown-timer {
+    gap: 15px;
+  }
+
+  .countdown-number {
+    font-size: 1.8em;
+  }
+
+  .glxavorhamar {
+    font-size: 2.3em;
+  }
+
+  .location-item h3 {
+    font-size: 24px;
+  }
+
+  .image-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+/* Մեծ Պլանշետներ/Փոքր Դեսքթոփներ (Max-width: 1024px) */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 95%;
+    /* Թույլ տալ ավելի լայն օգտագործել էկրանը */
+  }
+
+  .glxavorhamar {
+    font-size: 2.7em;
   }
 }

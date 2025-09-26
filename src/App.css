@@ -3,7 +3,6 @@ body {
 
   
   font-family: 'Gilda Display', serif !important;
-    /* Tangerine-ը փոխարինվել է Gilda Display-ով */
     background-color: #e0e0e0;
   color: #555;
   margin: 0;
@@ -263,7 +262,7 @@ body {
 }
 
 
-/* Թողեք նաև այս բլոկները */
+
 
 .glxavor {
   color: #999999;
@@ -372,7 +371,7 @@ transform: translateY(30px);
   }
 }
 
-/* Միջին Հեռախոսներից Մեծ Էկրաններ (Max-width: 768px - Tablet Portrait) */
+
 @media (max-width: 768px) {
   .container {
     max-width: 700px;

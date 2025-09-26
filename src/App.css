@@ -1,6 +1,6 @@
 /* App.css */
 body {
-  font-family: 'Tangerine', serif !important;
+
   background-color: #e0e0e0;
   color: #555;
   margin: 0;
@@ -226,8 +226,9 @@ body {
 
 .copyright {
   text-align: center;
-  font-size: 0.8em;
-  color: #888;
+  font-size: 0.9em;
+  color: #0960d2;
+  font-weight: bold;
   margin-top: 50px;
 }
 
@@ -343,10 +344,6 @@ body {
     font-size: 10px;
   }
 
-  .countdown-number {
-    font-size: 1.5em;
-    
-  }
 .countdown-section,
 .hero-section,
 .details-section,
@@ -387,7 +384,7 @@ transform: translateY(22px);
   }
 
   .countdown-number {
-    font-size: 1.8em;
+    font-size: 2.8em;
   }
 
   .glxavorhamar {

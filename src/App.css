@@ -1,7 +1,10 @@
 /* App.css */
 body {
 
-  background-color: #e0e0e0;
+  
+  font-family: 'Gilda Display', serif !important;
+    /* Tangerine-ը փոխարինվել է Gilda Display-ով */
+    background-color: #e0e0e0;
   color: #555;
   margin: 0;
   padding: 20px;
@@ -362,7 +365,7 @@ body {
   padding: 1px 25px;
 }
 .language-switcher button {
-transform: translateY(28px);
+transform: translateY(30px);
 }
   body {
     padding: 10px;

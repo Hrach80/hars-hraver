@@ -1,6 +1,5 @@
 /* App.css */
 body {
-  font-family: 'Pinyon Script', cursive !important;
   background-color: #e0e0e0;
   color: #555;
   margin: 0;
@@ -121,7 +120,7 @@ body {
 .countdown-timer .countdown-item {
   position: relative;
   overflow: hidden;
-  background-color: hsl(36, 33%, 91%);;
+  background-color: #f1e7d6;
   padding: 15px 20px;
   border-radius: 10px;
   box-shadow:
@@ -170,7 +169,7 @@ body {
   cursor: pointer;
   box-shadow:
     5px 5px 10px rgba(0, 0, 0, 0.1),
-    -5px -5px 10px rgba(204, 189, 176, 0.7);
+    -5px -5px 10px rgba(210, 194, 180, 0.7);
   transition: all 0.3s ease;
   font-weight: bold;
 }
@@ -248,12 +247,12 @@ body {
   cursor: pointer;
   font-size: 1.2em;
   margin-left: 10px;
-  color: rgb(90, 54, 3);
+  color: rgb(161, 137, 3);
   transition: color 0.3s ease;
 }
 
 .language-switcher button:hover {
-  color: rgb(145, 86, 5);
+  color: rgb(90, 54, 3);
 }
 
 .location-item {

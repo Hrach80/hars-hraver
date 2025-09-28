@@ -4,6 +4,7 @@ import { translations } from './translations';
 import LanguageSwitcher from './components/LanguageSwitcher.jsx';
 import emailjs from '@emailjs/browser';
 
+
 function App() {
   const [language, setLanguage] = useState('am');
   const [content, setContent] = useState(translations.am);

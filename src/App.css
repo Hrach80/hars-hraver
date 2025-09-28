@@ -1,6 +1,5 @@
 /* App.css */
 body {
-  background-color: #e0e0e0;
   color: #555;
   margin: 0;
   padding: 20px;
@@ -35,7 +34,7 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -51,8 +50,11 @@ body {
 
 .neomorphic-card {
   border-radius: 20px;
-  padding: 30px;
-  background-color: hsl(34, 22%, 78%);
+  background-image: url('https://i0.wp.com/freepngimg.com/thumb/flower/65930-calligraphy-script-typeface-sans-serif-flower-font-border.png?ssl=1');
+  background-size: cover;
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-position: center center;
   box-shadow:
     10px 10px 20px rgba(0, 0, 0, 0.2),
     -10px -10px 20px rgba(255, 255, 255, 0.8);
@@ -102,11 +104,13 @@ body {
 .subtitle {
   font-style: italic;
   font-size: 1.2em;
-  color: #6b4b34;
+  color: #060300;
+  text-shadow: white 5px 5px 15px;
 }
 
 .glxavor {
   color: #6b4b34;
+  text-shadow: white 0.5px 0.5px 15px;
   font-size: 30px;
 }
 
@@ -178,8 +182,8 @@ body {
 
   0%,
   100% {
-    color:#ffffff;
-    text-shadow: 0 0 7px #381a03 ;
+    color: #ffffff;
+    text-shadow: 0 0 7px #381a03;
   }
 
   50% {
@@ -331,10 +335,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .glxavorhamar {
-    font-size: 2em;
 
-  }
 
   .location-item h3 {
     font-size: 22px;

@@ -118,8 +118,8 @@ function App() {
         <div className="neomorphic-card">
         
           <div className="location-item"> 
-            <h2 className="glxavor subtitle">{content.churchTitle}</h2>
-            <p className="subtitle">{content.churchAddress}</p>
+            <h2 className="glxavor bacgraund">{content.churchTitle}</h2>
+            <p className="bacgraund">{content.churchAddress}</p>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Surb_Sargis_church_%2813%29.JPG/960px-Surb_Sargis_church_%2813%29.JPG" alt="Church Image" className="location-img" />
             <a href={churchMapsUrl} target="_blank" rel="noopener noreferrer">
               <svg className="location-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">

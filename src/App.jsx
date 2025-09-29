@@ -112,13 +112,13 @@ function App() {
             </div>
           </div>
         </div>
-      </section> 
+      </section>
 
       <section className="details-section">
         <div className="neomorphic-card">
-        
-          <div className="location-item"> 
-            <h2 className="glxavor bacgraund">{content.churchTitle}</h2>
+
+          <div className="location-item">
+            <h2 className="glxavor">{content.churchTitle}</h2>
             <p className="bacgraund">{content.churchAddress}</p>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Surb_Sargis_church_%2813%29.JPG/960px-Surb_Sargis_church_%2813%29.JPG" alt="Church Image" className="location-img" />
             <a href={churchMapsUrl} target="_blank" rel="noopener noreferrer">
@@ -130,7 +130,7 @@ function App() {
           </div>
           <div className="location-item">
             <h3 className="glxavor subtitle">{content.restaurantTitle}</h3>
-            <p className='subtitle' >{content.restaurantAddress}</p>
+            <p className='bacgraund' >{content.restaurantAddress}</p>
             <img src="https://hyurservice.com/images/hotel/1/16849254458362/hqdefault.webp" alt="Restaurant Image" className="location-img" />
             <a href={restaurantMapsUrl} target="_blank" rel="noopener noreferrer">
               <svg className="location-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
@@ -150,7 +150,7 @@ function App() {
               <label className='subtitle' htmlFor="name">{content.rsvpName}</label>
               <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
               <label className='subtitle' htmlFor="isAttending">{content.rsvpAttending}</label>
-              <select className='subtitl'  id="isAttending" name="isAttending" value={formData.isAttending} onChange={handleChange}>
+              <select className='subtitl' id="isAttending" name="isAttending" value={formData.isAttending} onChange={handleChange}>
                 <option className='opnmek' value="yes">{content.rsvpYes}</option>
                 <option className='opnerk' value="no">{content.rsvpNo}</option>
               </select>

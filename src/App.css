@@ -105,7 +105,6 @@ body {
   background-color: rgba(255, 255, 255, 0.6);
   padding: 10px;
   border-radius: 5px;
-color: #100701;
 }
 
 .glxavor {
@@ -183,7 +182,7 @@ color: #100701;
 
   0%,
   100% {
-    color: #ffffff;
+    color: #b0bcc7;
     text-shadow: 0 0 7px #381a03;
   }
 
